@@ -88,11 +88,12 @@ const $=s=>document.querySelector(s),esc=t=>String(t??'').replace(/[&<>"']/g,c=>
 const ok=u=>/^https?:\/\//i.test(u);
 /* ===== CONFIGURATION : à modifier ===== */
 const CONFIG={
-  supabaseUrl:'',             // ex: https://abcd1234.supabase.co  (voir supabase-setup.sql)
-  supabaseKey:'',             // clé « anon / publishable » (publique, pas de souci)
+  supabaseUrl:'https://afvhpqwrqtzpsepipgja.supabase.co/rest/v1/
+',             // ex: https://abcd1234.supabase.co  (voir supabase-setup.sql)
+  supabaseKey:'sb_publishable_z_EBPPsQNEqsiawsqzP6CQ_zH0eqyim',             // clé « anon / publishable » (publique, pas de souci)
   formEndpoint:'',            // ex: https://formspree.io/f/xxxxxxx (reçoit les candidatures par mail)
   email:'',                   // plan B : ouvre le mail du visiteur vers cette adresse
-  socials:{YouTube:'',"Twitter / X":'',Discord:'',Twitch:'',TikTok:'',Instagram:''}
+  socials:{YouTube:'https://www.youtube.com/@sageclanrl',"Twitter / X":'',Discord:'https://discord.gg/F5qfy55BP7',Twitch:'',TikTok:'https://www.tiktok.com/@7sevenrl07',Instagram:''}
 };
 /* ===== ROSTER : modifie ici, ou utilise le mode admin (voir plus bas) ===== */
 const DEFAULT_ROSTER=[
